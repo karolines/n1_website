@@ -170,6 +170,15 @@ body {
   font-size: 20px;
 }
 
+.decorator {
+  display: inline-block;
+  background-color: #4D4D4D;
+  width: 55px;
+  height: 10px;
+  margin-top: 4px;
+  margin-bottom: 24px;
+}
+
 
 #main {
   width: 312px;
