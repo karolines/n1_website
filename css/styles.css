@@ -1,0 +1,204 @@
+/* Common */
+
+* {
+  margin: 0;
+}
+
+.tb {
+  display: table;
+}
+
+.tm {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.tc {
+  text-align: center;
+}
+
+body {
+  font-family: "Open Sans";
+  background-color: #E9E9E9;
+}
+
+.middle {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+
+/* Header */
+
+#header {
+  background-color: #FFFFFF;
+  height: 60px;
+  box-shadow: 1px 0px 1px 1px #CCCCCC;
+}
+
+#logo {
+  height: 100%;
+  float: left;
+  width: 10%;
+}
+
+#search {
+  height: 100%;
+  float: left;
+  width: 60%;
+}
+
+#s_content {
+  padding-left: 210px;
+}
+
+#s_field {
+  background:#DDDDDD;
+  width: 216px;
+  height: 32px;
+  border: 0;
+  margin-right: 0;
+}
+
+#s_button {
+  background:#40C3DB;
+  width: 80px;
+  height: 32px;
+  border: 0;
+  font-size: 13px;
+  font-weight: bold;
+  color: #FFFFFF;
+  margin-left: -4px;
+}
+
+#d_menu {
+  height: 100%;
+  float: left;
+  width: 30%;
+}
+
+#menu {
+  margin-left: -34px;
+  font-size: 15px;
+}
+
+#menu li {
+  list-style-type: none;
+  float: left;
+}
+
+#menu li:hover {
+  background-color: #40C3DB;
+}
+
+#menu li a {
+  color: #000000;
+  font-weight: bold;
+  display: block;
+  padding: 20px 7px;
+  text-decoration: none;
+}
+
+#menu li a:hover {
+  color: #FFFFFF;
+}
+
+
+/* Slider */
+
+#slider {
+  overflow: hidden;
+}
+
+#s_left {
+  display: table;
+  text-align: center;
+  width: 10%;
+  float: left;
+  height: 100%;
+}
+
+#s_right {
+  display: table;
+  text-align: center;
+  width: 10%;
+  float: right;
+  height: 100%;
+}
+
+#s_middle {
+  width: 80%;
+  height: 100%;
+  float: left;
+}
+
+#left_image {
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+
+#right_image {
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+
+#top_image {
+  height: 46%;
+}
+
+#bottom_image {
+  height: 54%;
+}
+
+
+/* Main */
+
+#products {
+  border: 1px solid red;
+  height: 60px;
+}
+
+#news {
+  border: 1px solid red;
+  height: 60px;
+}
+
+
+
+#main {
+  width: 400px;
+  border: 1px solid red;
+}
+
+#picture {
+  border: 2px dotted blue;
+  width: 380px;
+  height: 200px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+#info {
+  border: 2px dotted green;
+  width: 380px;
+  height: 50px;
+  margin: 10px 10px;
+  overflow: hidden;
+}
+
+#about {
+  border: 1px dotted purple;
+  width: 100px;
+  height: 100%;
+  float: left;
+}
+
+#price {
+  border: 1px dotted purple;
+  width: 100px;
+  height: 100%;
+  float: right;
+}
