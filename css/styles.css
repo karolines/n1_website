@@ -26,6 +26,7 @@ body {
   width: 80%;
   height: 100%;
   margin: 0 auto;
+  overflow: hidden;
 }
 
 
@@ -157,48 +158,64 @@ body {
 /* Main */
 
 #products {
-  border: 1px solid red;
-  height: 60px;
+  height: 100%;
+  margin-top: 20px;
 }
 
 #news {
-  border: 1px solid red;
-  height: 60px;
+  height: 100%;
 }
 
+.title {
+  font-size: 20px;
+}
 
 
 #main {
-  width: 400px;
-  border: 1px solid red;
+  width: 312px;
+  border: 0;
+  background-color: #FFFFFF;
+  padding-top: 2px;
+  display: inline-block;
+  margin-right: 22px;
 }
 
 #picture {
-  border: 2px dotted blue;
-  width: 380px;
-  height: 200px;
   margin: 0 auto;
   margin-top: 10px;
 }
 
 #info {
-  border: 2px dotted green;
-  width: 380px;
+  width: 290px;
   height: 50px;
   margin: 10px 10px;
   overflow: hidden;
+  font-weight: bold;
 }
 
 #about {
-  border: 1px dotted purple;
-  width: 100px;
+  width: 150px;
   height: 100%;
   float: left;
+  text-align: left;
+}
+
+#desc {
+  color: #BBBBBB;
+  font-size: 12px;
 }
 
 #price {
-  border: 1px dotted purple;
   width: 100px;
   height: 100%;
   float: right;
+  text-align: right;
+}
+
+#monetary {
+  font-size: 12px;
+}
+
+#value {
+  color: #7E9977;
 }
